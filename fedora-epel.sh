@@ -6,8 +6,8 @@
 URL_BASE="http://mirrors.fedoraproject.org"
 INFILE=$(mktemp -t mirror-list-fedora-epel.XXXXXX)
 
-ARCH="i386 x86_64 ppc ppc64"
-REPO="epel-5 epel-6 epel-7"
+ARCH="i386 x86_64 ppc ppc64 ppc64le aarch64"
+REPO="epel-5 epel-6 epel-7 epel-8"
 
 for R in ${REPO}; do
 	for A in ${ARCH}; do
