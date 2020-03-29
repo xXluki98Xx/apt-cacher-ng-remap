@@ -9,6 +9,8 @@ So here is the [Blog](https://web.archive.org/web/20180404031216/http://blog.hud
 
 The Fedora Mirror lists doesnt list the update channels, so if you want to add them simple echo the url to the list like:
 
-echo "http://mirror2.hs-esslingen.de/fedora/linux/releases/31/Modular" >> /etc/apt-cacher-ng/mirror_list.d/list.fedora
-echo "http://mirror2.hs-esslingen.de/fedora/linux/updates/31/Everything" >> /etc/apt-cacher-ng/mirror_list.d/list.fedora
-echo "http://mirror2.hs-esslingen.de/fedora/linux/updates/31/Modular" >> /etc/apt-cacher-ng/mirror_list.d/list.fedora
+  echo "http://mirror2.hs-esslingen.de/fedora/linux/releases/31/Modular" >> /etc/apt-cacher-ng/mirror_list.d/list.fedora
+  
+  echo "http://mirror2.hs-esslingen.de/fedora/linux/updates/31/Everything" >> /etc/apt-cacher-ng/mirror_list.d/list.fedora
+  
+  echo "http://mirror2.hs-esslingen.de/fedora/linux/updates/31/Modular" >> /etc/apt-cacher-ng/mirror_list.d/list.fedora
